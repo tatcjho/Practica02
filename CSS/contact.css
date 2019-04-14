@@ -1,0 +1,157 @@
+nav{
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: orange;
+}
+
+a {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.5cm;
+
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:link {
+    color: purple;
+}
+
+
+li {
+    list-style: none;
+}
+
+div {
+    width: 1000px;
+}
+section {
+    width: 1080px;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(58, 58, 122, 0.712);
+}
+
+.as1 {
+    height: 300px;
+    width:198px; 
+    float: right; 
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px; 
+}
+
+
+
+#img1, #img2, #img3 {
+width: 270px;
+height: 200px;
+}
+
+h1, h3, h2 {
+    font-family: 'Anton', sans-serif;
+
+
+    font-size: 1cm;
+}
+
+h2 {
+    color: #ffc30f ;
+}
+
+h1 {
+    color: crimson;
+}
+
+h3 {
+    color: orangered;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightskyblue;
+    size:1cm;
+}
+
+h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    size: 1cm;
+}
+
+h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    size: 1cm;
+}
+
+
+p {
+    align-content: justify;
+    line-height: 1.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+table tr {
+    align-content: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: darkblue;
+    background-color: #ffc30f; 
+}
+    
+p span{
+    color: darkmagenta;
+}
+
+
+footer {
+    background-color: rgba(243, 114, 29, 0.829);
+    size: 1.5cm;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+body {
+    background-image: url(../images/fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+form {
+    background-color: rgba(58, 58, 122, 0.596);
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 15px;
+}
+
+form h1{
+    text-align: center;
+    color: black;
+    margin: 30px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+p {
+    color:  solid black;
+    font-weight: bold;
+}
+    
+    align-content: justify;
+    line-height: 1.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
