@@ -1,12 +1,58 @@
-nav{
-    float: left;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 10px;
-    list-style: none;
-    background-color: rgba(247, 211, 4, 0.486);
+*{
+    margin: 0;
+    padding: 0;
 }
+
+#general{
+    width: 1335px;
+    height: 1553px;
+    background-image: url(../images/fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width:1335px;
+}
+
+#sect{
+        width: 850px;
+        margin-left: 230px;
+        margin-right: 230px;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: rgba(2, 2, 2, 0.877);
+}
+
+
+.nav{
+        float: left;
+        width: 200px;
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 10px;
+        list-style: none;
+        background-color: rgba(247, 211, 4, 0.486);
+}
+
+.as1 {
+    height: 400px;
+    width:198px; 
+    float: right; 
+    border-radius: 15px;
+    padding: 10px; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#foot{
+    background-color: rgba(243, 114, 29, 0.829);
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+    width: 1335px;
+}
+    
+
 
 a {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,9 +64,6 @@ a {
     width:200px;
 }
 
-#logo{
-    width:1335px;
-}
 
 a:active {
     color: green;
@@ -42,33 +85,9 @@ li {
 div {
     width: 1000px;
 }
-section {
-    width: 850px;
-    margin-left: 230px;
-    margin-right: 230px;
-    border-radius: 15px;
-    padding: 10px;
-    background-color: rgba(2, 2, 2, 0.877);
-    
-}
 
-.as1 {
-    height: 400px;
-    width:198px; 
-    float: right; 
-    border-radius: 15px;
-    padding: 10px; 
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
-footer {
-    background-color: rgba(243, 114, 29, 0.829);
-    margin-bottom: 0px;
-    border-radius: 15px;
-    text-align: center;
-    font-size: large;
-    
-}
+
 
 
 #hist{
@@ -131,9 +150,5 @@ p span{
     color: darkmagenta;
 }
 
-body {
-    background-image: url(../images/fondo.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
+/*
